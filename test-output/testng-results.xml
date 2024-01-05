@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-05T19:02:24 PKT" name="Suite" finished-at="2024-01-05T19:03:16 PKT" duration-ms="51503">
+    <groups>
+    </groups>
+    <test started-at="2024-01-05T19:02:24 PKT" name="Perform data driven Testing with Multiple Users" finished-at="2024-01-05T19:02:44 PKT" duration-ms="20183">
+      <class name="First.DataDrivenTestingofLoginPage">
+        <test-method is-config="true" signature="Reports()[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:24 PKT" name="Reports" finished-at="2024-01-05T19:02:24 PKT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:24 PKT" name="Initialize" finished-at="2024-01-05T19:02:29 PKT" depends-on-methods="resources.Base.Reports" duration-ms="5106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:29 PKT" name="method" finished-at="2024-01-05T19:02:29 PKT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void First.DataDrivenTestingofLoginPage.Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method signature="Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String)[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:29 PKT" name="Login_With_All_users_And_verifyLogin_functionalitya" data-provider="getData" finished-at="2024-01-05T19:02:35 PKT" duration-ms="5411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_All_users_And_verifyLogin_functionalitya -->
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:35 PKT" name="method" finished-at="2024-01-05T19:02:35 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void First.DataDrivenTestingofLoginPage.Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method signature="Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String)[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:35 PKT" name="Login_With_All_users_And_verifyLogin_functionalitya" data-provider="getData" finished-at="2024-01-05T19:02:36 PKT" duration-ms="854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_All_users_And_verifyLogin_functionalitya -->
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:36 PKT" name="method" finished-at="2024-01-05T19:02:36 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void First.DataDrivenTestingofLoginPage.Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method signature="Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String)[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:36 PKT" name="Login_With_All_users_And_verifyLogin_functionalitya" data-provider="getData" finished-at="2024-01-05T19:02:36 PKT" duration-ms="639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_All_users_And_verifyLogin_functionalitya -->
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:36 PKT" name="method" finished-at="2024-01-05T19:02:36 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void First.DataDrivenTestingofLoginPage.Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method signature="Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String)[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:36 PKT" name="Login_With_All_users_And_verifyLogin_functionalitya" data-provider="getData" finished-at="2024-01-05T19:02:42 PKT" duration-ms="5618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_All_users_And_verifyLogin_functionalitya -->
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:42 PKT" name="method" finished-at="2024-01-05T19:02:42 PKT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void First.DataDrivenTestingofLoginPage.Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method signature="Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String)[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:42 PKT" name="Login_With_All_users_And_verifyLogin_functionalitya" data-provider="getData" finished-at="2024-01-05T19:02:43 PKT" duration-ms="748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_All_users_And_verifyLogin_functionalitya -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:First.DataDrivenTestingofLoginPage@34a1d21f]" started-at="2024-01-05T19:02:43 PKT" name="Teardown" finished-at="2024-01-05T19:02:44 PKT" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- First.DataDrivenTestingofLoginPage -->
+    </test> <!-- Perform data driven Testing with Multiple Users -->
+    <test started-at="2024-01-05T19:02:44 PKT" name="Verifying all the Login Test Cases" finished-at="2024-01-05T19:02:59 PKT" duration-ms="14293">
+      <class name="First.LoginPage">
+        <test-method is-config="true" signature="Reports()[pri:0, instance:First.LoginPage@6d0b5baf]" started-at="2024-01-05T19:02:44 PKT" name="Reports" finished-at="2024-01-05T19:02:44 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:First.LoginPage@6d0b5baf]" started-at="2024-01-05T19:02:44 PKT" name="Initialize" finished-at="2024-01-05T19:02:53 PKT" depends-on-methods="resources.Base.Reports" duration-ms="9129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:First.LoginPage@6d0b5baf]" started-at="2024-01-05T19:02:53 PKT" name="method" finished-at="2024-01-05T19:02:53 PKT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void First.LoginPage.Login_With_ValidData() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method signature="Login_With_ValidData()[pri:1, instance:First.LoginPage@6d0b5baf]" started-at="2024-01-05T19:02:53 PKT" name="Login_With_ValidData" finished-at="2024-01-05T19:02:56 PKT" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_ValidData -->
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:First.LoginPage@6d0b5baf]" started-at="2024-01-05T19:02:56 PKT" name="method" finished-at="2024-01-05T19:02:56 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void First.LoginPage.Verify_Page_Header_Text() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method signature="Verify_Page_Header_Text()[pri:2, instance:First.LoginPage@6d0b5baf]" started-at="2024-01-05T19:02:56 PKT" name="Verify_Page_Header_Text" finished-at="2024-01-05T19:02:56 PKT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Page_Header_Text -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:First.LoginPage@6d0b5baf]" started-at="2024-01-05T19:02:56 PKT" name="Teardown" finished-at="2024-01-05T19:02:59 PKT" duration-ms="2878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- First.LoginPage -->
+    </test> <!-- Verifying all the Login Test Cases -->
+    <test started-at="2024-01-05T19:02:59 PKT" name="Verifying the Add/Remove Card Test Cases" finished-at="2024-01-05T19:03:16 PKT" duration-ms="16992">
+      <class name="First.AddToCard">
+        <test-method is-config="true" signature="Reports()[pri:0, instance:First.AddToCard@482d776b]" started-at="2024-01-05T19:02:59 PKT" name="Reports" finished-at="2024-01-05T19:02:59 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:First.AddToCard@482d776b]" started-at="2024-01-05T19:02:59 PKT" name="Initialize" finished-at="2024-01-05T19:03:05 PKT" depends-on-methods="resources.Base.Reports" duration-ms="6458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method is-config="true" signature="method(java.lang.reflect.Method)[pri:0, instance:First.AddToCard@482d776b]" started-at="2024-01-05T19:03:05 PKT" name="method" finished-at="2024-01-05T19:03:05 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void First.AddToCard.Add_Item_into_Card() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method signature="Add_Item_into_Card()[pri:1, instance:First.AddToCard@482d776b]" started-at="2024-01-05T19:03:05 PKT" name="Add_Item_into_Card" finished-at="2024-01-05T19:03:14 PKT" duration-ms="8853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Item_into_Card -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:First.AddToCard@482d776b]" started-at="2024-01-05T19:03:14 PKT" name="Teardown" finished-at="2024-01-05T19:03:16 PKT" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- First.AddToCard -->
+    </test> <!-- Verifying the Add/Remove Card Test Cases -->
+  </suite> <!-- Suite -->
+</testng-results>

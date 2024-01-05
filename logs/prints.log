@@ -1,0 +1,32 @@
+19:02:35.254 [main] INFO  resources.Base - Successfully login with standard_user
+19:02:35.270 [main] INFO  resources.Base - Successfully Matched URL After login with standard_user
+19:02:36.118 [main] INFO  resources.Base - Successfully login with locked_out_user
+19:02:36.130 [main] INFO  resources.Base - URL does not Matched with After login URL locked_out_user
+19:02:36.130 [main] INFO  resources.Base - Login Failed
+19:02:36.769 [main] INFO  resources.Base - Successfully login with problem_user
+19:02:36.774 [main] INFO  resources.Base - Successfully Matched URL After login with problem_user
+19:02:42.386 [main] INFO  resources.Base - Successfully login with performance_glitch_user
+19:02:42.395 [main] INFO  resources.Base - Successfully Matched URL After login with performance_glitch_user
+19:02:43.133 [main] INFO  resources.Base - Successfully login with error_user
+19:02:43.146 [main] INFO  resources.Base - Successfully Matched URL After login with error_user
+19:02:53.897 [main] INFO  resources.Base - Launch the Browser
+19:02:56.087 [main] INFO  resources.Base - Successfully login with standard_user
+19:02:56.094 [main] INFO  resources.Base - Successfully Matched URL After login with standard_user
+19:02:56.178 [main] INFO  resources.Base - Successfully Verified the Page Header Text
+19:03:05.525 [main] INFO  resources.Base - Launch the Browser
+19:03:06.330 [main] INFO  resources.Base - Successfully login with standard_user
+19:03:06.338 [main] INFO  resources.Base - Successfully Matched URL After login with standard_user
+19:03:06.826 [main] INFO  resources.Base - Both Items are successfully Added into the Card 
+19:03:10.350 [main] INFO  resources.Base - User is successfully navigate into the Inventory Page
+19:03:10.842 [main] INFO  resources.Base - Both Items are successfully Added into the Card 
+19:07:24.005 [main] INFO  resources.Base - Successfully login with standard_user
+19:07:24.021 [main] INFO  resources.Base - Successfully Matched URL After login with standard_user
+19:07:24.745 [main] INFO  resources.Base - Successfully login with locked_out_user
+19:07:24.759 [main] INFO  resources.Base - URL does not Matched with After login URL locked_out_user
+19:07:24.759 [main] INFO  resources.Base - Login Failed
+19:07:25.472 [main] INFO  resources.Base - Successfully login with problem_user
+19:07:25.480 [main] INFO  resources.Base - Successfully Matched URL After login with problem_user
+19:07:31.202 [main] INFO  resources.Base - Successfully login with performance_glitch_user
+19:07:31.216 [main] INFO  resources.Base - Successfully Matched URL After login with performance_glitch_user
+19:07:32.022 [main] INFO  resources.Base - Successfully login with error_user
+19:07:32.027 [main] INFO  resources.Base - Successfully Matched URL After login with error_user
